@@ -1,4 +1,4 @@
 # profile
-Portfolio using Hugo
+Portfolio using Hugo👾
 
 Reference: https://gohugo.io/
