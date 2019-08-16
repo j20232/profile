@@ -55,6 +55,12 @@ publishdir = "public"
     weight = 50
 
 [[menu.main]]
+  identifier = "Speaker Deck"
+  pre = "<i class='fab fa-speaker-deck fa-lg'></i>"
+  url = "https://speakerdeck.com/j20232"
+  weight = 55
+
+[[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
