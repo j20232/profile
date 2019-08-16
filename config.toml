@@ -1,0 +1,62 @@
+baseURL = "https://j20232.github.io/"
+languageCode = "en-us"
+title = "mocobt"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+publishdir = "public"
+
+[taxonomies]
+  series = "series"
+
+[params]
+  author = "mocobt"
+  avatar = "avatar.jpg"
+  favicon = "favicon.ico"
+  description = """
+     Position: Research and Development @ Somewhere</br>
+     Research Fields: optics📸, physically-based rendering💡</br>
+     Interests: painting🎨, fabrication🐰, multi-modal UIs🤚, visual perception👀
+  """
+  publicationYear = "2019"
+
+[outputs]
+  section = ["JSON", "HTML"]
+
+[[menu.main]]
+  identifier = "twitter"
+  pre = "<i class='fab fa-twitter fa-lg'></i>"
+  url = "https://twitter.com/mocobt"
+  weight = 10
+
+[[menu.main]]
+  identifier = "blog"
+  pre = "<i class='fa fa-pen-nib fa-lg'></i>"
+  url = "https://mocobt.hatenablog.com/"
+  weight = 20
+
+
+[[menu.main]]
+    identifier = "scrapbox"
+    pre = "<i class='fab fa-stripe-s fa-lg'></i>"
+    url = "https://scrapbox.io/HumanComputerInteraction/"
+    weight = 30
+
+[[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/j20232"
+    weight = 40
+
+[[menu.main]]
+    identifier = "qiita"
+    pre = "<i class='fas fa-search fa-lg'></i>"
+    url = "https://qiita.com/mocobt"
+    weight = 50
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:mocobt@gmail.com"
+    weight = 60
