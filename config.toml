@@ -1,7 +1,7 @@
 baseURL = "https://j20232.github.io/"
 languageCode = "en-us"
 title = "mocobt"
-theme = "pulp"
+theme = "mine"
 canonifyurls = true
 hasCJKLanguage = true
 publishdir = "public"
@@ -16,7 +16,6 @@ publishdir = "public"
      Research Fields: optics📸, physically-based rendering💡</br>
      Interests: painting🎨, fabrication🐰, multi-modal UIs🤚, visual perception👀
   """
-  publicationYear = "2019"
 
 [outputs]
   section = ["JSON", "HTML"]
