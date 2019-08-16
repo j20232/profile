@@ -6,8 +6,6 @@ canonifyurls = true
 hasCJKLanguage = true
 publishdir = "public"
 
-[taxonomies]
-  series = "series"
 
 [params]
   author = "mocobt"
