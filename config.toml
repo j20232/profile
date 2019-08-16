@@ -47,6 +47,12 @@ publishdir = "public"
     weight = 40
 
 [[menu.main]]
+    identifier = "kaggle"
+    pre = "<i class='fab fa-kaggle fa-lg'></i>"
+    url = "https://www.kaggle.com/noroaspe"
+    weight = 45
+
+[[menu.main]]
     identifier = "qiita"
     pre = "<i class='fas fa-search fa-lg'></i>"
     url = "https://qiita.com/mocobt"
