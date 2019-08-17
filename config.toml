@@ -11,11 +11,9 @@ publishdir = "public"
   author = "mocobt"
   avatar = "avatar.jpg"
   favicon = "favicon.ico"
-  description = """
-     Position: Research and Development @ Somewhere</br>
-     Research Fields: optics📸, physically-based rendering💡</br>
-     Interests: painting🎨, fabrication🐰, multi-modal UIs🤚, visual perception👀
-  """
+  position = "Research and development @ 🌺"
+  field = "optics📸, physically-based rendering💡"
+  interests = "painting🎨, fabrication🐰, multi-modal UIs🤚, visual perception👀"
 
 [outputs]
   section = ["JSON", "HTML"]
@@ -62,6 +60,12 @@ publishdir = "public"
   pre = "<i class='fab fa-speaker-deck fa-lg'></i>"
   url = "https://speakerdeck.com/j20232"
   weight = 55
+
+[[menu.main]]
+  identifier = "conpass"
+  pre = "<i class='fab fa-cuttlefish fa-lg'></i>"
+  url = "https://connpass.com/user/noroaspe/"
+  weight = 57
 
 [[menu.main]]
     identifier = "email"

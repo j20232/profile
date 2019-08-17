@@ -15,7 +15,9 @@
         </header>
         <!-- description -->
         <p>
-          {{ .Site.Params.description | safeHTML }}
+          <a class="row">Position:</a> {{ .Site.Params.position}} </br>
+          <a class="row">Research Fields:</a> {{ .Site.Params.field}} </br>
+          <a class="row">Interests:</a> {{ .Site.Params.interests}} </br>
         </p>
         <!-- navigation -->
         <nav>
