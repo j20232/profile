@@ -11,12 +11,76 @@ publishdir = "public"
   author = "mocobt"
   avatar = "avatar.jpg"
   favicon = "favicon.ico"
-  position = "Research and development @ 🌺"
-  field = "optics📸, physically-based rendering💡"
-  interests = "painting🎨, fabrication🐰, multi-modal UIs🤚, visual perception👀"
 
 [outputs]
   section = ["JSON", "HTML"]
+
+[[menu.background]]
+  pre = "2019"
+  name = "CG & CV @ 🌺"
+  weight = 105
+
+[[menu.background]]
+  pre = "2018-2019"
+  name = "R&D @ 🇯🇵"
+  weight = 110
+
+[[menu.background]]
+  pre = "2012-2018"
+  name = "MEng @ 🐦"
+  weight = 115
+
+[[menu.field]]
+  name = "📸 Optics"
+  weight = 5
+
+[[menu.field]]
+  name = "✍️ Photo retouching"
+  weight = 10
+
+[[menu.field]]
+  name = "💡 Physically-based rendering"
+  weight = 15
+
+[[menu.interest]]
+  name = "🕺 Fashion"
+  weight = 10
+
+[[menu.interest]]
+  name = "🎨 Painting"
+  weight = 15
+
+[[menu.interest]]
+  name = "🐰 Fabrication"
+  weight = 25
+
+[[menu.interest]]
+  name = "🤚 Multi-modal UIs"
+  weight = 35
+
+[[menu.interest]]
+  name = "👀 Visual perception"
+  weight = 45
+
+[[menu.hobby]]
+  name = "👾 Mathematical optimization"
+  weight = 5
+
+[[menu.hobby]]
+  name = "🤖 Machine learning"
+  weight = 10
+
+[[menu.hobby]]
+  name = "😱 Kaggle"
+  weight = 15
+  
+[[menu.hobby]]
+  name = "⛰ Mountaineering"
+  weight = 20
+
+[[menu.hobby]]
+  name = "💃 Animation"
+  weight = 25
 
 [[menu.main]]
   identifier = "twitter"
@@ -60,12 +124,6 @@ publishdir = "public"
   pre = "<i class='fab fa-speaker-deck fa-lg'></i>"
   url = "https://speakerdeck.com/j20232"
   weight = 55
-
-[[menu.main]]
-  identifier = "conpass"
-  pre = "<i class='fab fa-cuttlefish fa-lg'></i>"
-  url = "https://connpass.com/user/noroaspe/"
-  weight = 57
 
 [[menu.main]]
     identifier = "email"

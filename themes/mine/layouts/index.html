@@ -2,8 +2,9 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-    <div id="profileContainer">
+    <div class="all" id="profileContainer">
       <div class="profile" id="profile">
+        <div class="avatar_header" id = "avatar_header">
         <header>
           <!-- avator -->
           <div class="avatar">
@@ -13,12 +14,6 @@
           <!-- author -->
           <h1 class="author">{{ .Site.Params.Author }}</h1>
         </header>
-        <!-- description -->
-        <p>
-          <a class="row">Position:</a> {{ .Site.Params.position}} </br>
-          <a class="row">Research Fields:</a> {{ .Site.Params.field}} </br>
-          <a class="row">Interests:</a> {{ .Site.Params.interests}} </br>
-        </p>
         <!-- navigation -->
         <nav>
           <ul>
@@ -27,6 +22,36 @@
             {{ end }}
           </ul>
         </nav>
+        </div>
+      <div class="background" id="background">
+        <!-- description -->
+        <p>
+          <div class="row">Background</div>
+            <ul align="left">
+              {{ range .Site.Menus.background}}
+                <li class="desc"><a>{{ .Pre }}: {{ .Name}}</a></li>
+              {{ end }}
+            </ul>
+          <div class="row">Current research fields</div>
+            <ul align="left">
+              {{ range .Site.Menus.field}}
+                <li class="desc"><a>{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          <div class="row">Interests</div>
+            <ul align="left">
+              {{ range .Site.Menus.interest}}
+              <li class="desc">{{ .Name }}</li>
+              {{ end }}
+            </ul>
+          <div class="row">Hobby</div>
+            <ul align="left">
+              {{ range .Site.Menus.hobby}}
+              <li class="desc">{{ .Name }}</li>
+              {{ end }}
+            </ul>
+        </p>
+      </div>
       </div>
     </div>
     {{- partial "footer.html" . -}}
