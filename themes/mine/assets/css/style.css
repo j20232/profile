@@ -34,6 +34,7 @@ h1 {
 
 /* Author */
 p {
+  color: rgba(0,0,0,0.05);
   font-weight: 700;
 }
 
@@ -51,25 +52,25 @@ p span::after {
   top: 0;
   left: -1px;
   transform-origin: left top;
-  transition: all ease-out .2s;
+  transition: all ease-out .15s;
   content: attr(data-text);
 }
 
 p span::before {
   z-index: 1;
   color: rgba(0,0,0,0.10);
-  transform: scale(1.1,1.1) skew(3deg,7deg);
+  transform: scale(1.1,1) skew(0deg,4deg);
 }
 
 p span::after {
   z-index: 1;
-  color: #707070;
+  color: #808080;
   text-shadow: -1px 0 1px #fff;
                 1px 0 1px #fff;
   transform: rotateY(-20deg);
 }
 
-p span:hover::before { transform: scale(1.1,1) skew(0deg,5deg); }
+p span:hover::before { transform: scale(1,1) skew(0deg,2deg); }
 
 p span:hover::after { transform: rotateY(-10deg); }
 
