@@ -8,7 +8,6 @@ publishdir = "public"
 
 
 [params]
-  author = "mocobt"
   avatar = "avatar.jpg"
   favicon = "favicon.ico"
 
