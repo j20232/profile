@@ -16,18 +16,18 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.background]]
-  pre = "2019-(Current)"
-  name = "R&D @ 🌺"
+  pre = "2019-(Now)"
+  name = "R&D (CV&CG) @ 🌺"
   weight = 105
 
 [[menu.background]]
   pre = "2018"
-  name = "R&D @ 🇯🇵"
+  name = "R&D (HCI) @ 🇯🇵"
   weight = 110
 
 [[menu.background]]
   pre = "2012-2018"
-  name = "MEng @ 🐦"
+  name = "MEng (HCI) @ 🐦"
   weight = 115
 
 [[menu.field]]
@@ -44,23 +44,23 @@ publishdir = "public"
 
 [[menu.interest]]
   name = "🕺 Fashion"
-  weight = 10
+  weight = 50
 
 [[menu.interest]]
-  name = "🎨 Painting"
-  weight = 15
-
-[[menu.interest]]
-  name = "🐰 Fabrication"
-  weight = 25
-
-[[menu.interest]]
-  name = "🤚 Multi-modal UIs"
-  weight = 35
+  name = "🎨 Painting and retouching"
+  weight = 5
 
 [[menu.interest]]
   name = "👀 Visual perception"
-  weight = 45
+  weight = 10
+
+[[menu.interest]]
+  name = "🤚 Multi-modal UIs"
+  weight = 20
+
+[[menu.interest]]
+  name = "🐰 Fabrication"
+  weight = 40
 
 [[menu.hobby]]
   name = "👾 Mathematical optimization"
