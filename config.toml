@@ -16,12 +16,12 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.background]]
-  pre = "2019"
-  name = "CG & CV @ 🌺"
+  pre = "2019-(Current)"
+  name = "R&D @ 🌺"
   weight = 105
 
 [[menu.background]]
-  pre = "2018-2019"
+  pre = "2018"
   name = "R&D @ 🇯🇵"
   weight = 110
 
