@@ -155,7 +155,7 @@ ul{
 /* Background */
 .Background{
   padding: 0.5em 0em;
-  transform: rotate(-0.4deg);
+  transform: rotate(-0.2deg);
   background-size: cover;
 }
 
@@ -175,7 +175,7 @@ ul{
 /* Hobby */
 .Hobby{
   padding: 0.5em 0em;
-  transform: rotate(0.4deg);
+  transform: rotate(0.2deg);
 }
 
 a:link {
