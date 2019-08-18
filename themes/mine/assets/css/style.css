@@ -139,7 +139,7 @@ p span:hover::after { transform: rotateY(-10deg); }
 }
 
 ul{
-  width: 140%;
+  width: 100%;
   list-style-type:none;
   margin: 0em;
   padding: 0.5em 1em;
