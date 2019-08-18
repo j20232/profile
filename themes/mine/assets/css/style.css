@@ -24,10 +24,6 @@ body {
   margin: 1em;
 }
 
-h1 {
-  margin: 1%;
-}
-
 .CodePen{
   margin: 2% 3% 3%;
 }
@@ -87,6 +83,7 @@ p span:hover::after { transform: rotateY(-10deg); }
   p { font-size: 2.5em; }
 }
 
+
 /* Profile */
 .profile {
   position: relative;
@@ -101,7 +98,7 @@ p span:hover::after { transform: rotateY(-10deg); }
 .profile::after {
   content: '';
   position: absolute;
-  bottom: 5px;
+  bottom: 8px;
   width: 40%;
   height: 10px;
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
@@ -138,19 +135,49 @@ p span:hover::after { transform: rotateY(-10deg); }
 }
 
 ul{
+  width: 140%;
   list-style-type:none;
-  padding: 0em 0em 0em 1em;
+  margin: 0em;
+  padding: 0.5em 0em 0em 1em;
 }
 
 .desc{
   padding: 1% 0%;
 }
 
+
 .row {
   color: #E27D60;
   font-weight:700;
   font-size: 14pt;
 }
+
+/* Background */
+.Background{
+  padding: 0.5em 0em;
+  transform: rotate(-0.4deg);
+  background-size: cover;
+}
+
+
+/* Research Field */
+.ResearchField{
+  padding: 0.5em 0em;
+  transform: rotate(0.2deg);
+}
+
+/* Interets */
+.Interests{
+  padding: 0.5em 0em;
+  transform: rotate(-0.2deg);
+}
+
+/* Hobby */
+.Hobby{
+  padding: 0.5em 0em;
+  transform: rotate(0.4deg);
+}
+
 a:link {
   color: #707070;
 }
@@ -158,15 +185,6 @@ a:link {
 a:visited {
   color: #707070;
 }
-
-a:hover {
-  color: #707070;
-}
-
-a:active {
-  color: #707070;
-}
-
 
 .avatar:hover {
 	-webkit-animation: fluffy 0.8s linear 0s 1;
@@ -271,8 +289,6 @@ footer {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-
-
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -288,92 +304,4 @@ nav li {
   font-size: 14pt;
 }
 
-/* Contents List */
-#searchBox {
-  position: relative;
-  max-width: 300px;
-  height: 30px;
-  margin: 20px auto;
-}
 
-#searchBox #searchBoxInput {
-  position: absolute;
-  width: 100%;
-  padding: 0 35px 0 15px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 15px;
-  outline: 0;
-  font-size: 15px;
-  color: #707070;
-  background-color:#f6f6f6;
-  border: solid 1px #c9c9c9;
-  box-sizing: border-box;
-}
-
-
-#searchBox #searchBoxInput::placeholder {
-  color: #c9c9c9;
-}
-
-#searchBox #searchBoxIcon {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  top: 5px;
-  right: 10px;
-}
-
-#searchResults {
-  display: none;
-  position: absolute;
-  max-width: 600px;
-  /* min-width: 300px; */
-  margin: 0 auto;
-  top: 240px;
-  left: 0;
-  right: 0;
-  padding: 5px;
-  background-color:#f6f6f6;
-  border: solid 1px #c9c9c9;
-  border-radius: 5px;
-  text-align: left;
-  box-sizing: border-box;
-}
-
-#searchResults .searchResultPage {
-  padding: 20px
-}
-
-#searchResults .searchResultTitle {
-  font-weight: bold;
-  margin: 5px 0;
-}
-
-#searchResults .searchResultBody {
-  font-size: 14px;
-}
-
-#searchResults mark {
-  background-color: #dddfdf;
-}
-
-#contentsList {
-  padding: 20px 0;
-}
-
-#contentsList hr.separator {
-  width: 10px;
-  margin: 30px auto;
-  border: solid 1px #c9c9c9;
-}
-
-/* Page */
-#contentBody {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px 0;
-  text-align: left;
-}

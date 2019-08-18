@@ -27,34 +27,41 @@
           </ul>
         </nav>
         </div>
-      <div class="background" id="background">
+      <div class="list" id="list">
         <!-- description -->
-        <p>
-          <div class="row">Background</div>
-            <ul align="left">
-              {{ range .Site.Menus.background}}
-                <li class="desc"><a>{{ .Pre }}: {{ .Name}}</a></li>
-              {{ end }}
-            </ul>
+          <div class="Background">
+             <div class="row">Background</div>
+               <ul align="left">
+                  {{ range .Site.Menus.background}}
+                    <li class="desc"><a>{{ .Pre }}: {{ .Name}}</a></li>
+                 {{ end }}
+                </ul>
+          </div>
+
+          <div class="ResearchField">
           <div class="row">Current research fields</div>
             <ul align="left">
               {{ range .Site.Menus.field}}
                 <li class="desc"><a>{{ .Name }}</a></li>
               {{ end }}
             </ul>
+          </div>
+          <div class="Interests">
           <div class="row">Interests</div>
             <ul align="left">
               {{ range .Site.Menus.interest}}
               <li class="desc">{{ .Name }}</li>
               {{ end }}
             </ul>
+          </div>
+          <div class="Hobby">
           <div class="row">Hobby</div>
             <ul align="left">
               {{ range .Site.Menus.hobby}}
               <li class="desc">{{ .Name }}</li>
               {{ end }}
             </ul>
-        </p>
+          </div>
       </div>
       </div>
     </div>
