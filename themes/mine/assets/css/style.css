@@ -4,7 +4,7 @@ body {
   -webkit-text-size-adjust: 100%;
   min-height:100vh;
   margin: 1px;
-  padding111px;
+  padding: 1px;
   box-sizing:border-box;
   background-color: #EFEFEF;
   background-image: url("img/background.png");
@@ -21,7 +21,7 @@ body {
 
 .all{
   width: 100%;
-  margin: 0em 0.5em;
+  margin: 0em;
 }
 
 h1 {
@@ -93,7 +93,7 @@ p span:hover::after { transform: rotateY(-10deg); }
   position: relative;
   width: 100%;
   margin: 0.2em auto;
-  padding: 1% 4% 1%;
+  padding: 0% 4% 0%;
   background-color: #f4eede;
   box-shadow: inset 0 0 40px rgba(204, 186, 136,1), 0 2px 2px #ccc;
 }
