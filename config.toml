@@ -62,26 +62,6 @@ publishdir = "public"
   name = "🐰 Fabrication"
   weight = 40
 
-[[menu.hobby]]
-  name = "👾 Mathematical optimization"
-  weight = 5
-
-[[menu.hobby]]
-  name = "🤖 Machine learning"
-  weight = 10
-
-[[menu.hobby]]
-  name = "😱 Kaggle"
-  weight = 15
-  
-[[menu.hobby]]
-  name = "⛰ Mountaineering"
-  weight = 20
-
-[[menu.hobby]]
-  name = "💃 Animation"
-  weight = 25
-
 [[menu.main]]
   identifier = "twitter"
   pre = "<i class='fab fa-twitter fa-lg'></i>"
