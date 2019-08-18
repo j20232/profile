@@ -155,27 +155,22 @@ ul{
 /* Background */
 .Background{
   padding: 0.5em 0em;
-  transform: rotate(-0.2deg);
-  background-size: cover;
 }
 
 
 /* Research Field */
 .ResearchField{
   padding: 0.5em 0em;
-  transform: rotate(0.2deg);
 }
 
 /* Interets */
 .Interests{
   padding: 0.5em 0em;
-  transform: rotate(-0.2deg);
 }
 
 /* Hobby */
 .Hobby{
   padding: 0.5em 0em;
-  transform: rotate(0.2deg);
 }
 
 a:link {
