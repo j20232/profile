@@ -97,6 +97,46 @@ p span:hover::after { transform: rotateY(-10deg); }
   box-shadow: inset 0 0 40px rgba(204, 186, 136,1), 0 2px 2px #ccc;
 }
 
+.profile::before,
+.profile::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  width: 40%;
+  height: 10px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+ 
+.profile::before {
+  left: 15px;
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+      -ms-transform: skew(-5deg) rotate(-5deg);
+          transform: skew(-5deg) rotate(-5deg);
+}
+ 
+.profile::after {
+  right: 15px;
+  -webkit-transform: skew(5deg) rotate(5deg);
+      -ms-transform: skew(5deg) rotate(5deg);
+          transform: skew(5deg) rotate(5deg);
+}
+ 
+.profile:hover::before,
+.profile:hover::after {
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+}
+ 
+.profile:hover::before {
+  left: 5px;
+}
+ 
+.profile:hover::after {
+  right: 5px;
+}
+
 ul{
   list-style-type:none;
   padding: 0em 0em 0em 1em;
