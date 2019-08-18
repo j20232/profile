@@ -6,7 +6,7 @@
       <div class="profile" id="profile">
         <div class="avatar_header" id = "avatar_header">
         <header>
-          <!-- avator -->
+          <!-- avatar -->
           <div class="avatar">
             <img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="avatar">
             <img src="/img/avatar-border.svg" alt="avatar-border">
@@ -20,7 +20,7 @@
         <nav>
           <ul>
             {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}" class="hvr-float-shadow">{{ .Pre }}<br>{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </nav>
