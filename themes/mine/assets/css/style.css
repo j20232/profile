@@ -3,8 +3,8 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   min-height:100vh;
-  margin: 1px;
-  padding: 1px;
+  margin: 1px 5px;
+  padding: 1px 30px;
   box-sizing:border-box;
   background-color: #EFEFEF;
   background-image: url("img/background.png");
@@ -16,7 +16,6 @@ body {
   font-size: 16px;
   word-wrap: break-word;
   display: flex;
-  justify-content: center;
 }
 
 .all{
