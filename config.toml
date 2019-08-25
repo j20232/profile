@@ -16,7 +16,7 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.background]]
-  pre = "2019-(Now)"
+  pre = "2019-"
   name = "R&D (CV&CG) @ 🌺"
   weight = 105
 
