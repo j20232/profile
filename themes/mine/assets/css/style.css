@@ -18,12 +18,6 @@ body {
   display: flex;
 }
 
-#canvas { position:fixed; top:0; left:0; width:100%; height:100%; }
-#body   { position:absolute; top:0; left:0; }
-
-.canvas{
-  background-image: url("img/background.png");
-}
 
 .all{
   width: 100%;
