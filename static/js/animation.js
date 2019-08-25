@@ -3,4 +3,4 @@ window.onload = function() {
  function(){$(this).addClass('fluffy');},
  function(){$(this).removeClass('fluffy');}
  );
-};
+}
