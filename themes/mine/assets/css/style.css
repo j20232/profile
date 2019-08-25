@@ -3,8 +3,8 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   min-height:100vh;
-  margin: 1px 5px;
-  padding: 1px 30px;
+  margin: 1px 4px;
+  padding: 1px 20px;
   box-sizing:border-box;
   background-color: #EFEFEF;
   background-image: url("img/background.png");
