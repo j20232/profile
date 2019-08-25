@@ -2,7 +2,8 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-    <div class="all" id="profileContainer">
+    <canvas id="canvas"></canvas>
+      <div class="all" id="profileContainer">
       <div class="profile" id="profile">
         <div class="avatar_header" id = "avatar_header">
         <header>
@@ -37,7 +38,7 @@
                  {{ end }}
                 </ul>
           </div>
-
+          
           <div class="ResearchField">
           <div class="row">Current research fields</div>
             <ul align="left">
@@ -58,5 +59,6 @@
       </div>
     </div>
     {{- partial "footer.html" . -}}
+  <script src="/js/background.js"></script>
   </body>
 </html>

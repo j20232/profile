@@ -43,10 +43,6 @@ publishdir = "public"
   weight = 15
 
 [[menu.interest]]
-  name = "🕺 Fashion"
-  weight = 50
-
-[[menu.interest]]
   name = "🎨 Painting and retouching"
   weight = 5
 
