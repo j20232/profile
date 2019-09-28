@@ -30,33 +30,26 @@ publishdir = "public"
   name = "MEng (HCI) @ 🐦"
   weight = 115
 
+
 [[menu.field]]
-  name = "📸 Optics"
+  name = "💡 Lighting"
   weight = 5
 
 [[menu.field]]
   name = "✍️ Photo retouching"
   weight = 10
 
-[[menu.field]]
-  name = "💡 Physically-based rendering"
+[[menu.interest]]
+  name = "🤚 Visual and haptic UI"
+  weight = 5
+  
+[[menu.interest]]
+  name = "🌊 Continuum simulation"
   weight = 15
 
 [[menu.interest]]
-  name = "🎨 Painting and retouching"
-  weight = 5
-
-[[menu.interest]]
-  name = "👀 Visual perception"
-  weight = 10
-
-[[menu.interest]]
-  name = "🤚 Multi-modal UIs"
-  weight = 20
-
-[[menu.interest]]
   name = "🐰 Fabrication"
-  weight = 40
+  weight = 20
 
 [[menu.main]]
   identifier = "twitter"
