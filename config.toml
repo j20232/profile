@@ -30,7 +30,6 @@ publishdir = "public"
   name = "MEng (HCI) @ 🐦"
   weight = 115
 
-
 [[menu.field]]
   name = "💡 Lighting"
   weight = 5
@@ -46,10 +45,6 @@ publishdir = "public"
 [[menu.interest]]
   name = "🌊 Continuum simulation"
   weight = 15
-
-[[menu.interest]]
-  name = "🐰 Fabrication"
-  weight = 20
 
 [[menu.main]]
   identifier = "twitter"
