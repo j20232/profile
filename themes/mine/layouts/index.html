@@ -29,22 +29,13 @@
         </div>
       <div class="list" id="list">
         <!-- description -->
-          <div class="Background">
-             <div class="row">Background</div>
+          <div class="Job">
+             <div class="row">Job</div>
                <ul align="left">
                   {{ range .Site.Menus.background}}
-                    <li class="desc"><a>{{ .Pre }}: {{ .Name}}</a></li>
+                    <li class="desc"><a>{{ .Name}}</a></li>
                  {{ end }}
                 </ul>
-          </div>
-          
-          <div class="ResearchField">
-          <div class="row">Current Fields</div>
-            <ul align="left">
-              {{ range .Site.Menus.field}}
-                <li class="desc"><a>{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
           </div>
           <div class="Interests">
           <div class="row">Interests</div>

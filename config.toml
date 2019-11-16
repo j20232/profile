@@ -16,34 +16,11 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.background]]
-  pre = "2019-"
-  name = "R&D (CV&CG) @ 🌺"
+  name = "🌺 R&D Engineer (Lighting & Animation)"
   weight = 105
 
-[[menu.background]]
-  pre = "2018"
-  name = "R&D (HCI) @ 🇯🇵"
-  weight = 110
-
-[[menu.background]]
-  pre = "-2018"
-  name = "MEng (HCI) @ 🐦"
-  weight = 115
-
-[[menu.field]]
-  name = "💡 Lighting"
-  weight = 5
-
-[[menu.field]]
-  name = "✍️ Photo retouching"
-  weight = 10
-
 [[menu.interest]]
-  name = "🤚 Visual and haptic UI"
-  weight = 5
-  
-[[menu.interest]]
-  name = "🌊 Continuum simulation"
+  name = "🍯 Fluid Simulation (MPM & SPH)"
   weight = 15
 
 [[menu.main]]
