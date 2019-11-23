@@ -16,11 +16,11 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.background]]
-  name = "🌺 R&D Engineer (Lighting & Animation)"
+  name = "🌺 Graphics R&D Engineer"
   weight = 105
 
 [[menu.interest]]
-  name = "🍯 Fluid Simulation (MPM & SPH)"
+  name = "🍯 Fluid Simulation with MPM"
   weight = 15
 
 [[menu.main]]
