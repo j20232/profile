@@ -15,10 +15,6 @@ publishdir = "public"
 [outputs]
   section = ["JSON", "HTML"]
 
-[[menu.background]]
-  name = "🌺 Graphics R&D Engineer"
-  weight = 105
-
 [[menu.interest]]
   name = "🍯 Fluid Simulation with MPM"
   weight = 15
