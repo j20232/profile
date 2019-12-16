@@ -16,8 +16,17 @@ publishdir = "public"
   section = ["JSON", "HTML"]
 
 [[menu.interest]]
-  name = "🍯 Fluid Simulation with MPM"
+  name = "🍯 Continuum Simulation with MPM"
   weight = 15
+
+[[menu.interest]]
+  name = "🐇 Geometry Processing"
+  weight = 20
+
+[[menu.interest]]
+  name = "🎥 Differential Rendering"
+  weight = 20
+
 
 [[menu.main]]
   identifier = "twitter"
