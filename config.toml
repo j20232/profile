@@ -15,14 +15,6 @@ publishdir = "public"
 [outputs]
   section = ["JSON", "HTML"]
 
-[[menu.interest]]
-  name = "🍯 Material Point Method"
-  weight = 15
-
-[[menu.interest]]
-  name = "🐇 Geometry Processing"
-  weight = 20
-
 [[menu.main]]
   identifier = "twitter"
   pre = "<i class='fab fa-twitter fa-lg'></i>"

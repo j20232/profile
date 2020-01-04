@@ -2,42 +2,44 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-      <div class="all" id="profileContainer">
+    <div class="all" id="profileContainer">
       <div class="profile" id="profile">
-        <div class="avatar_header" id = "avatar_header">
-        <header>
-          <!-- avatar -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-          <div class="avatar", id="camera">
-            <script src="/js/animation.js"></script>
-            <img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="avatar">
-            <img src="/img/avatar-border.svg" alt="avatar-border">
-          </div>
-          <!-- author -->
-          <p aria-label="CodePen" class="CodePen">
-          <span data-text="{{ .Site.Params.author}}">{{.Site.Params.author}}</span>
-          </p>
-        </header>
-        <!-- navigation -->
-        <nav>
-          <ul>
-            {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}" class="hvr-float-shadow">{{ .Pre }}<br>{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </nav>
-        </div>
-      <div class="list" id="list">
-        <!-- description -->
-          <div class="Interests">
-          <div class="row">Interests</div>
-            <ul align="left">
-              {{ range .Site.Menus.interest}}
-              <li class="desc">{{ .Name }}</li>
+        <div class="avatar_header" id="avatar_header">
+          <header>
+            <!-- avatar -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <div class="avatar" , id="camera">
+              <script src="/js/animation.js"></script>
+              <img
+                class="avatarMask"
+                src="/img/{{ .Site.Params.avatar }}"
+                alt="avatar"
+              />
+              <img src="/img/avatar-border.svg" alt="avatar-border" />
+            </div>
+            <!-- author -->
+            <p aria-label="CodePen" class="CodePen">
+              <span data-text="{{ .Site.Params.author}}"
+                >{{.Site.Params.author}}</span
+              >
+            </p>
+          </header>
+          <!-- navigation -->
+          <nav>
+            <ul>
+              {{ range .Site.Menus.main }}
+              <li>
+                <a
+                  href="{{ .URL }}"
+                  aria-label="{{ .Identifier }}"
+                  class="hvr-float-shadow"
+                  >{{ .Pre }}<br />{{ .Name }}</a
+                >
+              </li>
               {{ end }}
             </ul>
-          </div>
-      </div>
+          </nav>
+        </div>
       </div>
     </div>
     {{- partial "footer.html" . -}}
